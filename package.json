@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "lunar-javascript": "^1.7.3",
+    "uview-ui": "^2.0.38"
+  }
+}

@@ -1,0 +1,93 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path": "pages/draw/draw",
+		    "style": {
+		      "navigationBarTitleText": "每日一抽"
+			  // "mp-weixin": {
+		   //    "enableShareAppMessage": true,   // 允许转发好友
+		   //    "enableShareTimeline": true     // 允许分享到朋友圈
+			  // }
+		    }
+		  },
+		  {
+		  			"path": "pages/wnl/wnl",
+		  			"style": {
+		  				"navigationBarTitleText": " 万年历"
+		  			}
+		  		},
+		  		{
+		  			"path": "pages/hl/hl",
+		  			"style": {
+		  				"navigationBarTitleText": "黄历"
+		  			}
+		  		},
+		  		{
+		  			"path": "pages/gongde/gongde",
+		  			"style": {
+		  				"navigationBarTitleText": "随机"
+		  			}
+		  		},
+		  {
+		    "path": "pages/result/result",
+		    "style": {
+		      "navigationBarTitleText": "说明"
+			  //"navigationStyle": "custom"
+			  // "mp-weixin": {
+		   //    "enableShareAppMessage": true,
+		   //    "enableShareTimeline": true
+			  // }
+		    }
+		  },
+		  {
+		    "path": "pages/history/history",
+		    "style": {
+		      "navigationBarTitleText": "历史签记录"
+		    }
+		  }
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+			"color": "#A07C54",
+			"selectedColor": "#8B5A2B",
+			"borderStyle": "white",
+			"backgroundColor": "#fdf6e3",
+			"list": [{
+					"pagePath": "pages/draw/draw",
+					"text": "每日一抽",
+					"iconPath": "static/tabbar/tab-draw.png",
+					"selectedIconPath": "static/tabbar/tab-draw.png"
+				},
+				{
+					"pagePath": "pages/wnl/wnl",
+					"text": "万年历",
+					"iconPath": "static/tabbar/tab-draw.png",
+					"selectedIconPath": "static/tabbar/tab-draw.png"
+				},
+				{
+					"pagePath": "pages/hl/hl",
+					"text": "黄历",
+					"iconPath": "static/tabbar/tab-draw.png",
+					"selectedIconPath": "static/tabbar/tab-draw.png"
+				},
+				{
+					"pagePath": "pages/gongde/gongde",
+					"text": "随机",
+					"iconPath": "static/tabbar/tab-draw.png",
+					"selectedIconPath": "static/tabbar/tab-draw.png"
+				}
+			]
+		},
+	"easycom": {
+	    "autoscan": true,
+	    "custom": {
+	      "^u-.*": "uview-ui/components/u-$1/u-$1.vue"
+	    }
+	  },
+	"uniIdRouter": {}
+}
